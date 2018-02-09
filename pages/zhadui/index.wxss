@@ -1,0 +1,21 @@
+.rect {
+  width: 100%;
+  height: 400rpx;
+  text-align: center;
+  line-height: 400rpx;
+  color: #04cc87;
+  overflow:hidden;
+  position:relative;
+}
+.rect .bg {
+  width: 100%;
+}
+.rect .place {
+  width:100%;
+  color:#ffffff;
+  position:absolute;
+  left:0;
+  top:0;
+  font-size:50rpx;
+  background:rgba(0,0,0,.3);
+}

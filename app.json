@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/user/index",
+    "pages/zhadui/index",
+    "pages/zhadui/create",
+    "pages/logs/logs",
+    "pages/details/singapore",
+    "pages/details/osaka",
+    "pages/details/zurich",
+    "pages/details/kotakinabalu"
+  ],
+  "window":{
+    "backgroundTextStyle":"#04cc87",
+    "navigationBarBackgroundColor": "#04cc87",
+    "navigationBarTitleText": "扎个堆",
+    "navigationBarTextStyle":"#ffffff"
+  }
+}

@@ -1,0 +1,26 @@
+<view>
+  <navigator url="../details/osaka"> 
+    <view class="rect">
+      <image class="bg" src="/images/1.jpg"></image>
+      <text class="place">-- 大阪 --</text>
+    </view>
+  </navigator>
+  <navigator url="../details/zurich"> 
+  <view class="rect">
+    <image class="bg" src="/images/2.jpg"></image>
+    <text class="place">-- 苏黎世 --</text>
+  </view>
+  </navigator>
+  <navigator url="../details/singapore"> 
+    <view class="rect">
+      <image class="bg" src="/images/3.jpg"></image>
+      <text class="place">-- 新加坡 --</text>
+    </view>
+  </navigator>
+  <navigator url="../details/kotakinabalu"> 
+    <view class="rect">
+      <image class="bg" src="/images/4.jpg"></image>
+      <text class="place">-- 亚庇 --</text>
+    </view>
+  </navigator>
+</view>

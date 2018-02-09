@@ -1,0 +1,24 @@
+<view>
+  <view class="rect">
+    <swiper class="swipe-area" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+        <block wx:for="{{imgUrls}}">  
+          <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+              <image src="{{item.url}}" class="slide-image" width="355" height="150"/>  
+              </navigator>   
+          </swiper-item>  
+        </block>  
+    </swiper>
+  </view>
+  <view>
+    <view>
+      <text class="place-title">-- 苏黎世 --</text>
+    </view>
+    <view class="conditionAll">
+      <text class="condition">1、时间：2018.01.01</text>
+      <text class="condition">2、人数：20人</text>
+      <text class="condition">3、交通工具： 飞机</text>
+    </view>
+    <button class="initiated" bindtap='create'>扎堆</button>
+  </view>
+</view>

@@ -1,0 +1,25 @@
+<view>
+    <view class="create-section">  
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">  
+        <view class="picker">  
+          国家：{{array[index]}}  
+        </view>  
+      </picker>  
+    </view>  
+      
+    <view class="create-section">  
+      <picker mode="time" value="{{time}}" start="09:01" end="21:01" bindchange="bindTimeChange">  
+        <view class="picker">  
+        时间 : {{time}}  
+        </view>  
+      </picker>  
+    </view>  
+    <view class="create-section">  
+      <picker mode="date" value="{{date}}" start="2015-09-01" end="2017-09-01" bindchange="bindDateChange">  
+        <view class="picker">  
+          日期: {{date}}  
+        </view>  
+      </picker>  
+    </view>  
+    <button class="initiated" bindtap='success'>确定</button>
+</view>
