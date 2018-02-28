@@ -4,6 +4,6 @@
 
 ## 预览
 
-![预览](https://github.com/xiqi99520/wx-program/blob/master/images/wechat.jpg)
+![预览](https://github.com/xiqi99520/wx-program/blob/master/images/wechat11.jpg)
 
 ### 接下来会有更多的小项目提交上来，希望大家能支持，点个star
